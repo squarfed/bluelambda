@@ -14,3 +14,7 @@ Copy "bluelambda-theme.el" in "~/.emacs.d/" and put the following in your "~/.em
 
   (add-to-list 'custom-theme-load-path "~/.emacs.d/")
   (load-theme 'bluelambda)
+
+Screenshot
+----------
+![bluelambda screenshot](http://positronicbrain.github.com/images/bluelambda.png)
