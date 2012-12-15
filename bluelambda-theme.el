@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2012  Federico Squartini
 
-;; Author: Federico Squartini <federico.squartini@googlemail.com>
+;; Author: Federico Squartini <federico.squartini@gmail.com>
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
