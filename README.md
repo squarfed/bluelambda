@@ -9,11 +9,11 @@ Install
 -------
 Bluelambda is written the new theme system introduced in Emacs 24.
 
-Copy "bluelambda-theme.el" in "~/.emacs.d/" and put the following in your "~/.emacs":
+Copy "bluelambda-theme.el" in "~/.emacs.d/" and put the following in your
+"~/.emacs":
 
-
-  (add-to-list 'custom-theme-load-path "~/.emacs.d/")
-  (load-theme 'bluelambda)
+    (add-to-list 'custom-theme-load-path "~/.emacs.d/")
+    (load-theme 'bluelambda)
 
 Screenshot
 ----------
