@@ -48,6 +48,7 @@
    `(mode-line ((,class (:background  ,lambda-gold :foreground ,lambda-bg :box (:line-width -1 :style released-button)))))
    `(mode-line-inactive ((,class (:background ,lambda-grey :foreground ,lambda-bg :box (:line-width -1 :style  released-button)))))
    `(mode-line-buffer-id ((,class (:weight bold :background nil :foreground ,lambda-bg))))
+   `(mode-line-highlight ((,class (:foreground  ,lambda-gold :background ,lambda-bg :box (:line-width -1 :style released-button)))))
 
    `(menu ((,class (:foreground ,lambda-fg :background ,lambda-bg))))
 
@@ -58,7 +59,7 @@
 
    ;; search
    `(isearch ((,class (:background ,lambda-blue1 :foreground ,lambda-bg))))
-   `(isearch-lazy-highlight-face ((,class (:background ,lambda-blue2 :foreground ,lambda-bg))))
+   `(lazy-highlight ((,class (:background ,lambda-blue2 :foreground ,lambda-bg))))
    `(isearch-fail ((,class (:foreground ,lambda-red :background ,lambda-bg :bold t))))
 
 
@@ -94,8 +95,8 @@
    `(match ((,class (:background ,lambda-dark))))
    `(highlight ((,class (:background ,lambda-green))))
 
-   `(show-paren-match-face ((,class (:background "dark green" :foreground ,lambda-fg))))
-   `(show-paren-mismatch-face ((,class (:background ,lambda-red :foreground ,lambda-fg))))
+   `(show-paren-match ((,class (:background "dark green" :foreground ,lambda-fg))))
+   `(show-paren-mismatch ((,class (:background ,lambda-red :foreground ,lambda-fg))))
 
    ;; Hyperlinks
    `(link ((,class (:underline t :foreground ,lambda-blue1))))
@@ -106,17 +107,17 @@
    `(info-header-xref ((,class (:foreground  ,lambda-blue2))))
    `(info-menu-header ((,class (:family "helv" :weight bold))))
    `(info-node ((,class (:foreground ,lambda-blue1))))
-   `(info-xref ((,class (:foreground  ,lambda-blue2))))
+   `(info-xref ((,class (:foreground ,lambda-blue2))))
 
    ;; Flymake
    `(flymake-errline ((,class (:background nil :underline ,lambda-red))))
    `(flymake-warnline ((,class (:background nil :underline ,lambda-gold))))
 
    ;; compile
-   `(compilation-column-number ((,class (:foreground ,lambda-red))))
+   `(compilation-column-number ((,class (:weight bold :foreground ,lambda-fg))))
+   `(compilation-line-number ((,class (:weight bold :foreground ,lambda-fg))))
    `(compilation-error ((,class (:foreground ,lambda-red weight:bold))))
-   `(compilation-info ((,class (:weight normal :foreground ,lambda-red))))
-   `(compilation-line-number ((,class (:foreground ,lambda-red))))
+   `(compilation-info ((,class (:weight bold :foreground ,lambda-blue1))))
 
    ;; diff
    `(diff-added ((,class(:foreground ,lambda-blue1 :bold t))))
